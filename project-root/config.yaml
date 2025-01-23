@@ -1,0 +1,7 @@
+pipeline:
+  preprocessing:
+    enabled: true
+  ocr:
+    enabled: true
+  export:
+    format: markdown

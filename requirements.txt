@@ -1,0 +1,27 @@
+# OCR and Image Processing Libraries
+easyocr               # For OCR text extraction using EasyOCR
+opencv-python         # For image processing (binarization, noise reduction, etc.)
+pillow                # For image handling (used by EasyOCR for reading and processing images)
+
+# PDF Handling
+fpdf                  # For creating PDF output reports
+
+# PDF Extraction (For PDF input handling)
+PyPDF2                # For extracting images and text from PDF files
+
+# Text Processing and Matching (if needed for Q&A)
+fuzzywuzzy            # For fuzzy matching (e.g., for question-answer mapping)
+python-Levenshtein    # Speeds up fuzzywuzzy (useful for text normalization)
+
+# For Markdown generation
+markdown-it-py        # For advanced Markdown parsing (optional, if needed)
+
+# Other utility packages
+numpy                 # For numerical processing (useful for certain image manipulations)
+requests              # For making API requests (useful if you need external API calls)
+fastapi               # For building the API (FastAPI framework)
+uvicorn               # ASGI server for FastAPI
+flask                 # For creating web apps or APIs (optional, if you plan to expose the OCR functionality via an API)
+
+# Development & Testing Libraries
+pytest                # For running tests and unit tests for your pipeline
